@@ -10,8 +10,8 @@ public static class RobsTempTimer
 
     public static double Diff()
     {
-        var x = _startTime;
+        var tempDate = _startTime;
         _startTime = DateTime.Now;
-        return (DateTime.Now - x).TotalSeconds;
+        return (DateTime.Now - tempDate).TotalSeconds;
     }
 }
