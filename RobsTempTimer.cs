@@ -1,5 +1,3 @@
-﻿namespace LLP.Reporting.Api.CampaignSummaries;
-
 public static class RobsTempTimer
 {
     private static DateTime _startTime;
